@@ -436,6 +436,9 @@
 <script>
     const cssPath = "https://ispengpeng.github.io/waifu/waifu.css"
     
+    const waifutipsJsonPath = "https://ispengpeng.github.io/waifu/waifu-tips.json"
+
+    
     const live2d_path = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.2/dist/';
     
 
@@ -471,7 +474,7 @@
     ]);
     
     initWidget({
-        waifuPath: live2d_path + 'waifu-tips.json',
+        waifuPath: waifutipsJsonPath + 'waifu-tips.json',
         cdnPath: 'https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/',
         cubism2Path: live2d_path + 'live2d.min.js',
         cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
