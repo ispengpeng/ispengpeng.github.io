@@ -423,37 +423,56 @@
         document.head.appendChild(customFont);
     }());
 </script>
+<script>
+    const cssPath = "https://ispengpeng.github.io/waifu/waifu.css"
+    
+    
 
+    
+    const live2d_path = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.2/dist/';
+    
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.0.min.js"></script>
+    
+    function loadExternalResource(url, type) {
+    return new Promise((resolve, reject) => {
+        let tag;
 
-<script type="text/javascript">
-    L2Dwidget.init({
-        model: {
-            scale: 1,
-            hHeadPos: 0.5,
-            vHeadPos: 0.618,
-            jsonPath: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-hibiki@1.0.5/assets/hibiki.model.json',       
-        },
-        display: {
-            superSample: 1,     
-            width: 150,         
-            height: 300,        
-            position: 'right',   
-            hOffset: 100,         
-            vOffset: 20,         
-        },
-        mobile: {
-            show: true,         
-            scale: 1,           
-            motion: true,       
-        },
-        react: {
-            opacityDefault: 1,  
-            opacityOnHover: 1,  
-        },
-     });
+        if (type === 'css') {
+        tag = document.createElement('link');
+        tag.rel = 'stylesheet';
+        tag.href = url;
+        }
+        else if (type === 'js') {
+        tag = document.createElement('script');
+        tag.type = 'module';
+        tag.src = url;
+        }
+        if (tag) {
+        tag.onload = () => resolve(url);
+        tag.onerror = () => reject(url);
+        document.head.appendChild(tag);
+        }
+    });
+    }
+
+    
+    
+    (async () => {
+    await Promise.all([
+        loadExternalResource(cssPath, 'css'),
+        loadExternalResource(live2d_path + 'waifu-tips.js', 'js')
+    ]);
+    
+    initWidget({
+        waifuPath: live2d_path + 'waifu-tips.json',
+        cdnPath: 'https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/',
+        cubism2Path: live2d_path + 'live2d.min.js',
+        cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
+        tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info', 'quit'],
+        logLevel: 'warn',
+        drag: false,
+    });
+    })();
 </script>
 
     </body>
