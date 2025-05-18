@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>记录 on Ispengpeng</title>
+        <link>https://ispengpeng.github.io/categories/%E8%AE%B0%E5%BD%95/</link>
+        <description>Recent content in 记录 on Ispengpeng</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>ispengpeng</copyright>
+        <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ispengpeng.github.io/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>最爱的宝贝</title>
+        <link>https://ispengpeng.github.io/p/baby/</link>
+        <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://ispengpeng.github.io/p/baby/</guid>
+        <description>&lt;img src="https://ispengpeng.github.io/p/baby/1.jpg" alt="Featured image of post 最爱的宝贝" /&gt;&lt;p&gt;&lt;img src=&#34;https://ispengpeng.github.io/p/baby/1.jpg&#34;
+	width=&#34;1925&#34;
+	height=&#34;1279&#34;
+	srcset=&#34;https://ispengpeng.github.io/p/baby/1_hu_6044a3523ad30b34.jpg 480w, https://ispengpeng.github.io/p/baby/1_hu_ca88b751b196dd9.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;
+&lt;img src=&#34;https://ispengpeng.github.io/p/baby/2.jpg&#34;
+	width=&#34;2443&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://ispengpeng.github.io/p/baby/2_hu_c0024a8e50b985ab.jpg 480w, https://ispengpeng.github.io/p/baby/2_hu_b5d95bc1fb4c5ac2.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;190&#34;
+		data-flex-basis=&#34;458px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
