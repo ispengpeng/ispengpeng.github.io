@@ -333,7 +333,7 @@
                     <a href="/archives/#2025">
                         
                             <span class="year">2025</span>
-                            <span class="count">1</span>
+                            <span class="count">2</span>
                         
                     </a> 
                 </div>
@@ -372,16 +372,28 @@
                 Test
             </a>
         
+            <a href="/categories/%E4%BB%BF%E7%9C%9F/" class="font_size_1">
+                仿真
+            </a>
+        
+            <a href="/categories/%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2%E5%85%89%E8%B0%B1%E4%BB%AA/" class="font_size_1">
+                傅里叶变换光谱仪
+            </a>
+        
+            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="font_size_1">
+                学习
+            </a>
+        
+            <a href="/categories/%E6%97%85%E8%A1%8C/" class="font_size_1">
+                旅行
+            </a>
+        
             <a href="/categories/%E6%B5%8B%E8%AF%95/" class="font_size_1">
                 测试
             </a>
         
             <a href="/categories/%E7%94%9F%E6%B4%BB/" class="font_size_1">
                 生活
-            </a>
-        
-            <a href="/categories/%E8%AE%B0%E5%BD%95/" class="font_size_1">
-                记录
             </a>
         
     </div>
@@ -402,7 +414,7 @@
 
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">4 个页面</h3>
+                <h3 class="section-count">7 个页面</h3>
                 <h1 class="section-term">Categories</h1>
                 
             </div>
@@ -412,9 +424,9 @@
     <section class="article-list--compact">
         
             <article>
-    <a href="/categories/%E8%AE%B0%E5%BD%95/">
+    <a href="/categories/%E4%BB%BF%E7%9C%9F/">
         <div class="article-details">
-            <h2 class="article-title">记录</h2>
+            <h2 class="article-title">仿真</h2>
             <footer class="article-time">
                 <time datetime='2025-05-18T00:00:00Z'>May 18, 2025</time>
             </footer>
@@ -423,9 +435,9 @@
 </article>
         
             <article>
-    <a href="/categories/%E7%94%9F%E6%B4%BB/">
+    <a href="/categories/%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2%E5%85%89%E8%B0%B1%E4%BB%AA/">
         <div class="article-details">
-            <h2 class="article-title">生活</h2>
+            <h2 class="article-title">傅里叶变换光谱仪</h2>
             <footer class="article-time">
                 <time datetime='2025-05-18T00:00:00Z'>May 18, 2025</time>
             </footer>
@@ -434,22 +446,13 @@
 </article>
         
             <article>
-    <a href="/categories/test/">
+    <a href="/categories/%E6%97%85%E8%A1%8C/">
         <div class="article-details">
-            <h2 class="article-title">Test</h2>
+            <h2 class="article-title">旅行</h2>
             <footer class="article-time">
-                <time datetime='2020-09-09T00:00:00Z'>Sep 09, 2020</time>
+                <time datetime='2025-05-18T00:00:00Z'>May 18, 2025</time>
             </footer>
         </div>
-            <div class="article-image">
-                <img src="/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash_hu_30cc804daec7a86b.jpg" 
-                        width="120"
-                        height="120" 
-                        alt="Test"
-                        loading="lazy">
-                
-            </div>
-        
     </a>
 </article>
         
@@ -465,6 +468,10 @@
             
             
                     <a class='page-link' href='/categories/page/2/'>2</a>
+                
+            
+            
+                    <a class='page-link' href='/categories/page/3/'>3</a>
                 
             
     </nav>
@@ -503,39 +510,26 @@
         document.head.appendChild(customFont);
     }());
 </script>
+<div id="particles-js"></div>
 
-
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.0.min.js"></script>
-
-<script type="text/javascript">
-    L2Dwidget.init({
-        model: {
-            scale: 1,
-            hHeadPos: 0.5,
-            vHeadPos: 0.618,
-            jsonPath: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-hibiki@1.0.5/assets/hibiki.model.json',       
-        },
-        display: {
-            superSample: 1,     
-            width: 120,         
-            height: 300,        
-            position: 'right',   
-            hOffset: 100,         
-            vOffset: 20,         
-        },
-        mobile: {
-            show: true,         
-            scale: 1,           
-            motion: true,       
-        },
-        react: {
-            opacityDefault: 1,  
-            opacityOnHover: 1,  
-        },
-     });
+<script src=https://ispengpeng.github.io/background/particles.min.js></script>
+<script>
+  particlesJS.load('particles-js', "https://ispengpeng.github.io/background/particlesjs-config.json", function() {
+    console.log('particles.js loaded - callback');
+  });
 </script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+</style>
+
+
 
     </body>
 </html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>学习 on Ispengpeng</title>
+        <link>https://ispengpeng.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+        <description>Recent content in 学习 on Ispengpeng</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>ispengpeng</copyright>
+        <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ispengpeng.github.io/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>傅里叶变换光谱仪</title>
+        <link>https://ispengpeng.github.io/p/fourier/</link>
+        <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://ispengpeng.github.io/p/fourier/</guid>
+        <description>&lt;img src="https://ispengpeng.github.io/p/fourier/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post 傅里叶变换光谱仪" /&gt;&lt;h1 id=&#34;一原理&#34;&gt;一、原理
+&lt;/h1&gt;&lt;h1 id=&#34;二仿真&#34;&gt;二、仿真
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
